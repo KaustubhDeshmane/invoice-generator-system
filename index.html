@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invoice Generator v2</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="dashboard">
+
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar">
+      <h2>InvoiceSys</h2>
+
+      <nav>
+        <a href="#" class="active">📄 Create Invoice</a>
+        <a href="#">📚 History</a>
+        <a href="#">⚙ Settings</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <p>Simple • Fast • Clean</p>
+      </div>
+    </aside>
+
+    <!-- ================= MAIN AREA ================= -->
+    <main class="main">
+
+      <!-- HEADER -->
+      <header class="topbar">
+        <h1>Invoice Dashboard</h1>
+        <p>Generate and manage invoices</p>
+      </header>
+
+      <!-- ================= GRID ================= -->
+      <section class="grid">
+
+        <!-- LEFT: FORM -->
+        <div class="card">
+
+          <h3>Create Invoice</h3>
+
+          <div class="form-group">
+            <label>Customer Name</label>
+            <input type="text" id="customerName" placeholder="Enter name"/>
+          </div>
+
+          <div class="form-group">
+            <label>Date</label>
+            <input type="date" id="invoiceDate"/>
+          </div>
+
+          <div class="items-header">
+            <h4>Items</h4>
+            <button id="addItemBtn" class="btn">+ Add</button>
+          </div>
+
+          <div class="table-wrapper">
+            <table id="itemsTable">
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Qty</th>
+                  <th>Price</th>
+                  <th>Total</th>
+                  <th></th>
+                </tr>
+              </thead>
+
+              <tbody></tbody>
+            </table>
+          </div>
+
+          <div class="total-box">
+            <span>Total</span>
+            <h2 id="grandTotal">₹0</h2>
+          </div>
+
+          <div class="actions">
+            <button id="generateInvoiceBtn" class="primary">Generate</button>
+            <button id="downloadPdfBtn" class="secondary">PDF</button>
+          </div>
+
+        </div>
+
+        <!-- RIGHT: HISTORY -->
+        <div class="card">
+
+          <h3>Recent Invoices</h3>
+
+          <div id="invoiceHistory" class="history-grid">
+            <!-- dynamic cards -->
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
