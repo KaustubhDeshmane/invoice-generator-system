@@ -8,7 +8,7 @@ Built using HTML, CSS, JavaScript (Frontend) and Node.js + Express + PDFKit (Bac
 
 ## 🌐 Live Demo
 
-Add your live URL here
+https://kaustubhdeshmane.github.io/invoice-generator-system/
 
 ---
 
@@ -99,7 +99,7 @@ User enters customer details → adds items → system calculates total → send
 
 ## 👨‍💻 Author
 
-KaustubhDeshmane
+Kaustubh Deshmane
 
 ---
 
