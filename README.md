@@ -59,7 +59,7 @@ invoicegenerator-master/
 ---
 
 ## ⚙️ Setup Instructions
-
+```text
 1. Clone repository
 git clone https://github.com/KaustubhDeshmane/invoice-generator-system.git
 cd invoice-generator
@@ -76,7 +76,7 @@ http://localhost:5000
 
 4. Open frontend
 Open index.html in browser or use Live Server
-
+```
 ---
 
 ## 🧠 How It Works
