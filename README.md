@@ -1,38 +1,39 @@
 # 🧾 Invoice Generator System
 
-A full-stack Invoice Generator web application that allows users to create invoices dynamically, manage items, calculate totals in real time, and generate downloadable PDF invoices.
+A full-stack Invoice Generator Web Application that allows users to create invoices dynamically, manage items in real time, calculate totals automatically, and generate downloadable PDF invoices.
 
-Built using **HTML, CSS, JavaScript (Frontend)** and **Node.js + Express + PDFKit (Backend)**.
+Built using HTML, CSS, JavaScript (Frontend) and Node.js + Express + PDFKit (Backend).
 
 ---
 
 ## 🌐 Live Demo
 
-
+Add your live URL here
 
 ---
 
 ## 🚀 Features
 
-- Create invoices dynamically
+- Dynamic invoice creation
 - Add / remove items in real time
-- Auto calculate totals
-- Generate invoices via backend API
+- Auto-calculated totals
+- Instant UI updates
+- Backend-powered invoice generation
 - Download invoices as PDF
-- View invoice history
-- Responsive modern UI
-- Lightweight and fast
+- Invoice history tracking
+- Fully responsive UI
+- Lightweight and fast system
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+Frontend:
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla)
 
-**Backend**
+Backend:
 - Node.js
 - Express.js
 - PDFKit
@@ -41,7 +42,7 @@ Built using **HTML, CSS, JavaScript (Frontend)** and **Node.js + Express + PDFKi
 ---
 
 ## 📁 Project Structure
-
+```text
 invoicegenerator-master/
 ├── index.html
 ├── css/
@@ -54,26 +55,26 @@ invoicegenerator-master/
 │   ├── package-lock.json
 │   └── invoices/
 └── README.md
-
+```
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone Repository
-git clone https://github.com/KaustubhDeshmane/invoice-generator.git
+1. Clone repository
+git clone https://github.com/KaustubhDeshmane/invoice-generator-system.git
 cd invoice-generator
 
-### 2. Install Backend Dependencies
+2. Install backend dependencies
 cd backend
 npm install
 
-### 3. Start Backend Server
+3. Start backend server
 node index.js
 
-Backend runs on:
+ Backend runs at:
 http://localhost:5000
 
-### 4. Open Frontend
+4. Open frontend
 Open index.html in browser or use Live Server
 
 ---
@@ -86,20 +87,25 @@ User enters customer details → adds items → system calculates total → send
 
 ## 🚀 Future Improvements
 
-- MongoDB database integration
+- MongoDB integration for persistent storage
 - Authentication system
-- Invoice numbering (INV-001)
+- Invoice numbering (INV-001 format)
 - GST calculation support
 - Email invoice feature
 - Cloud storage for PDFs
+- Search & filter invoices
 
 ---
 
 ## 👨‍💻 Author
 
-Kaustubh Deshmane</br></br>
+KaustubhDeshmane
 
-Feel free to reach out for collaboration, improvements, or ideas.
+---
+
+## 📬 Contact
+
+Feel free to reach out for collaboration, improvements, or suggestions.
 
 ---
 
