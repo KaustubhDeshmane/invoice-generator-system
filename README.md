@@ -1,8 +1,12 @@
+<div align="center">
+
 # 🧾 Invoice Generator System
 
 A full-stack Invoice Generator Web Application that allows users to create invoices dynamically, manage items in real time, calculate totals automatically, and generate downloadable PDF invoices.
 
 Built using HTML, CSS, JavaScript (Frontend) and Node.js + Express + PDFKit (Backend).
+
+</div>
 
 ---
 
